@@ -1,0 +1,25 @@
+{
+    "name": "jhonyspicy/laravel-example-package",
+    "description": "this is example package for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jhonyspicy",
+            "email": "jhonyspicy@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "jhonyspicy\\LaravelExamplePackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "jhonyspicy\\LaravelExamplePackage\\Tests\\": "tests"
+        }
+    }
+}
