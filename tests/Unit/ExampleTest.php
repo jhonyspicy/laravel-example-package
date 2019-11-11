@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Unit;
+namespace jhonyspicy\LaravelExamplePackage\Tests\Unit;
 
 use Orchestra\Testbench\TestCase;
 
