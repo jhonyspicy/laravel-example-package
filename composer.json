@@ -21,5 +21,15 @@
         "psr-4": {
             "jhonyspicy\\LaravelExamplePackage\\Tests\\": "tests"
         }
+    },
+    "scripts": {
+        "test": "phpunit --testdox"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "jhonyspicy\\LaravelExamplePackage\\Provider"
+            ]
+        }
     }
 }
