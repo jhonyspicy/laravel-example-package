@@ -17,7 +17,7 @@
             "jhonyspicy\\LaravelExamplePackage\\": "src/"
         },
         "exclude-from-classmap": [
-            "/tests/"
+            "/Tests/"
         ]
     },
     "autoload-dev": {
