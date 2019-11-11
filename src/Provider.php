@@ -12,6 +12,8 @@ class Provider extends ServiceProvider
      */
     public function boot()
     {
+        \Log::debug('loading!');
+
 /*
         \Log::extend('foo', function ($app, $config) {
             return new Bar($config);
